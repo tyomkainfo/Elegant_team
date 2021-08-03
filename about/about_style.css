@@ -1,0 +1,46 @@
+.services_div {
+    display: flex;
+    background-color: #f9f9f9;
+
+}
+
+.services_div_img {
+    width: 50%;
+    margin-right: 42px;
+}
+
+services_div_text{
+    width: 50%;
+}
+
+.services_div_h3 {
+    margin-top: 42px;
+    font: 45px "Open Sans";
+    font-weight: bold;
+    color: #505d68;
+    margin-bottom: 93px;
+}
+
+.services_text{
+    width: 608px;
+    display: flex;
+    margin-left: 14px;
+    justify-content: space-between;
+}
+
+.services_div_p_1 {
+    display: block;
+    width: 210px;
+    font: 18px "Open Sans";
+    font-weight: lighter;
+    color: #505d68;
+    line-height: 30px;
+}
+.services_div_p_2 {
+    display: block;
+    width: 210px;
+    font: 18px "Open Sans";
+    font-weight: lighter;
+    color: #505d68;
+    line-height: 30px;
+}
