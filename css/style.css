@@ -16,11 +16,13 @@ body {
 .container {
     max-width: 770px;
     margin: auto;
+    padding: 0 15px;
 }
 
 .header_section {
     position: relative;
     overflow: hidden;
+    text-align: center;
 }
 
 .header_section{
@@ -36,16 +38,21 @@ body {
     transform: scale(1.1);
 }
 
+.mobile_bg {
+    display: none;
+}
+
 .header_section h1 {
     position: absolute;
     top: 50%;
     left: 50%;
+    width: 100%;
     transform: translate(-50%, -50%);
     font-style: italic;
     font-size: 80px;
     color: #fff;
     font-weight: 300;
-    white-space: nowrap;
+    padding: 0 30px;
 }
 
 
@@ -135,7 +142,7 @@ body {
 .gallery_first-row, .gallery_second-row {
     display: flex;
     justify-content: center;
-    margin: 3px -3px;
+    margin: 3px;
 }
 
 .gallery_item {
