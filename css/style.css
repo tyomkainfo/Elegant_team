@@ -159,3 +159,223 @@ body {
 .gallery_item:hover img {
     transform: scale(1.2);
 }
+
+.container{
+    margin: auto;
+    max-width: 770px;
+}
+
+.amazePeople{
+    padding: 82px 0;
+    margin-bottom: 80px;
+}
+.amazePeople h3{
+    font-family: 'Open Sans-SemiBold', sans-serif;
+    color:#747a7f;
+    font-size: 44px;
+    text-align: center;
+    margin-bottom: 47px;
+    padding:24px 8px 0;
+}
+
+.amazePeople h3:before{
+    content: "Who We Are";
+    text-transform: uppercase;
+    color: #d4af37;
+    font-size: 13px;
+    text-align: center;
+    display: block;
+    width: 100%;
+    line-height: 13px;
+    margin-bottom: 24px;
+}
+p.mainPar{
+    text-align: center;
+    font-family: '../css/Open Sans-Light', sans-serif;
+    font-size: 18px;
+    color:#021725;
+    margin-bottom: 49px;
+}
+.threeGuys{
+    display: flex;
+    justify-content: space-between;
+}
+.person{
+    background-color: #f9f9f9;
+    max-width: 245px;
+    margin-right: 5px;
+}
+
+.person h4{
+    color:#71777c;
+    margin-bottom: 35px;
+    padding:51px 0 0 16px;
+    font-size:21px;
+}
+
+.person h4.ceo:before{
+    content: "CEO";
+    text-transform: uppercase;
+    color: #d4af37;
+    font-size: 13px;
+    display: block;
+    width: 100%;
+    line-height: 13px;
+    margin-bottom: 21px;
+}
+.person h4.designer:before{
+    content: "DESIGNER";
+    text-transform: uppercase;
+    color: #d4af37;
+    font-size: 13px;
+    display: block;
+    width: 100%;
+    line-height: 13px;
+    margin-bottom: 21px;
+}
+.person h4.developer:before{
+    content: "DEVELOPER";
+    text-transform: uppercase;
+    color: #d4af37;
+    font-size: 13px;
+    display: block;
+    width: 100%;
+    line-height: 13px;
+    margin-bottom: 21px;
+}
+
+.person p{
+    text-align: center;
+    padding:0 19px 47px 21px;
+    color:#021725;
+    font-family: '../css/Open Sans-Light', sans-serif;
+}
+
+
+.likeWrite h3{
+    font-family: 'Open Sans-SemiBold', sans-serif;
+    color:#505d68;
+    font-size: 44px;
+    text-align: center;
+    margin-bottom: 47px;
+    padding:24px 8px 0;
+}
+
+.likeWrite h3:before{
+    content: "Last post";
+    text-transform: uppercase;
+    color: #d4af37;
+    font-size: 13px;
+    text-align: center;
+    display: block;
+    width: 100%;
+    line-height: 13px;
+    margin-bottom: 24px;
+}
+.lastPost{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 85px;
+}
+.imgLP img{
+    min-height: 389px ;
+}
+.lastPostText{
+    max-width: 385px;
+    min-height: 389px;
+    background-color: #f9f9f9;
+}
+
+.lastPostText h4{
+    font-family: 'Open Sans-Regular', sans-serif;
+    color:#505d68;
+    font-size: 30px;
+    padding-left: 40px;
+    padding-top: 45px;
+    margin-bottom: 35px;
+}
+.lastPostText h4:before{
+    content: "14 September 2014";
+    text-transform: uppercase;
+    color: #505d68;
+    font-size: 13px;
+    display: block;
+    width: 100%;
+    line-height: 13px;
+    margin-bottom: 21px;
+}
+.lastPostText p{
+    color: #505d68;
+    padding:0 40px 0 40px;
+    margin-bottom: 58px;
+}
+
+.lastPostText .btn{
+    padding:0 40px 40px 40px;
+}
+a.more-blog{
+    display: inline-block;
+    font-size: 14px;
+    color: #021725;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 0 53px;
+    line-height: 55px;
+}
+
+.likeWrite a.more-blog{
+    text-align: center;
+}
+.workUs{
+    margin-bottom: 79px;
+}
+.workUs h3{
+    font-family: 'Open Sans-SemiBold', sans-serif;
+    color:#505d68;
+    font-size: 44px;
+    text-align: center;
+    margin-bottom: 47px;
+    padding:24px 8px 0;
+}
+.workUs h3:before{
+    content: "Contact Us";
+    text-transform: uppercase;
+    color: #d4af37;
+    font-size: 13px;
+    text-align: center;
+    display: block;
+    width: 100%;
+    line-height: 13px;
+    margin-bottom: 24px;
+}
+.info_block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.contactBlocks{
+    max-width:370px;
+    background-color: #f9f9f9;
+    padding: 0 73px;
+}
+.contactBlocks h4{
+    padding:52px 0 0;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.contactBlocks p{
+    padding-bottom: 48px;
+    text-align: center;
+}
+footer{
+    background-color: #eeeeee;
+}
+
+.container.fter{
+    background-color: #eeeeee;
+    color:#505d68;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
