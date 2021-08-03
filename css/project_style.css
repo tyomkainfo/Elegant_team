@@ -6,6 +6,7 @@
 .bg_img_div{
     position: relative;
     height: 700px;
+    overflow: hidden;
 }
 
 .bg_img{
@@ -14,6 +15,11 @@
     width: 100%;
     height: 700px;
     z-index: 0;
+    transition: 0.7s;
+}
+
+.bg_img_div img:hover {
+    transform: scale(1.1);
 }
 
 .main_sec{
