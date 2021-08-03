@@ -13,3 +13,142 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.container {
+    max-width: 770px;
+    margin: auto;
+}
+
+.header_section {
+    position: relative;
+    overflow: hidden;
+}
+
+.header_section{
+    width: 100%;
+    height: auto;
+}
+
+.header_section img {
+    transition: 1s ease-in-out;
+}
+
+.header_section img:hover {
+    transform: scale(1.1);
+}
+
+.header_section h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-style: italic;
+    font-size: 80px;
+    color: #fff;
+    font-weight: 300;
+    white-space: nowrap;
+}
+
+
+.tell_about {
+    padding: 82px 0;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.title {
+    font-size: 44px;
+    color: #4d5c66;
+    font-weight: 600;
+    margin-bottom: 50px;
+    line-height: 35px;
+}
+
+
+.title:before {
+    display: block;
+    content: "WHO WE ARE";
+    width: 100%;
+    font-size: 13px;
+    color: #d4af37;
+    line-height: 13px;
+    margin-bottom: 24px;
+}
+
+.title.before:before {
+    content: "WHAT WE DO";
+}
+
+
+.tell_about p {
+    font-size: 18px;
+    color: #021725;
+    font-weight: 300;
+    line-height: 32px;
+    margin-bottom: 40px;
+}
+
+.more-btn{
+    position: relative;
+    display: inline-block;
+    font-size:  14px;
+    color: #021725;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 0 53px;
+    line-height: 55px;
+}
+
+
+.more-btn:after {
+
+    display: block;
+    content: "";
+    height: 3px;
+    width: 0;
+    background-color: transparent;
+    transition: .3s;
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.more-btn:hover:after {
+    width: 100px;
+    background-color: #d4af37;
+}
+
+.amazing_work {
+    text-align: center;
+}
+
+.amazing_work .title {
+    margin-bottom: 92px;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery_first-row, .gallery_second-row {
+    display: flex;
+    justify-content: center;
+    margin: 3px -3px;
+}
+
+.gallery_item {
+    display: inline-block;
+    width: 25%;
+    margin: 0 3px;
+    overflow: hidden;
+}
+
+.gallery_item img {
+    transition: .7s ease-in-out;
+}
+
+.gallery_item img:hover {
+    transform: scale(1.2);
+}
