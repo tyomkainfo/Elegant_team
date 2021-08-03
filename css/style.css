@@ -207,6 +207,7 @@ p.mainPar{
 }
 
 .person h4{
+    text-align: left;
     color:#71777c;
     margin-bottom: 35px;
     padding:51px 0 0 16px;
@@ -245,7 +246,7 @@ p.mainPar{
 }
 
 .person p{
-    text-align: center;
+    text-align:left;
     padding:0 19px 47px 21px;
     color:#021725;
     font-weight: 300;
