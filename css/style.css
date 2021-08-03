@@ -170,7 +170,7 @@ body {
     margin-bottom: 80px;
 }
 .amazePeople h3{
-    font-family: 'Open Sans-SemiBold', sans-serif;
+    font-weight: 600;
     color:#747a7f;
     font-size: 44px;
     text-align: center;
@@ -191,7 +191,7 @@ body {
 }
 p.mainPar{
     text-align: center;
-    font-family: '../css/Open Sans-Light', sans-serif;
+    font-weight: 300;
     font-size: 18px;
     color:#021725;
     margin-bottom: 49px;
@@ -248,12 +248,14 @@ p.mainPar{
     text-align: center;
     padding:0 19px 47px 21px;
     color:#021725;
-    font-family: '../css/Open Sans-Light', sans-serif;
+    font-weight: 300;
 }
 
-
+.likeWrite{
+    margin-bottom:90px;
+}
 .likeWrite h3{
-    font-family: 'Open Sans-SemiBold', sans-serif;
+    font-weight: 600;
     color:#505d68;
     font-size: 44px;
     text-align: center;
@@ -278,7 +280,7 @@ p.mainPar{
     margin-bottom: 85px;
 }
 .imgLP img{
-    min-height: 389px ;
+   width: auto;
 }
 .lastPostText{
     max-width: 385px;
@@ -287,7 +289,7 @@ p.mainPar{
 }
 
 .lastPostText h4{
-    font-family: 'Open Sans-Regular', sans-serif;
+    font-weight: 600;
     color:#505d68;
     font-size: 30px;
     padding-left: 40px;
@@ -308,10 +310,14 @@ p.mainPar{
     color: #505d68;
     padding:0 40px 0 40px;
     margin-bottom: 58px;
+    font-weight: 300;
 }
 
 .lastPostText .btn{
     padding:0 40px 40px 40px;
+}
+.btnBlog{
+    text-align: center;
 }
 a.more-blog{
     display: inline-block;
@@ -321,16 +327,22 @@ a.more-blog{
     border: 1px solid black;
     padding: 0 53px;
     line-height: 55px;
+    transition: 0.3s linear;
 }
 
 .likeWrite a.more-blog{
     text-align: center;
 }
+
+.likeWrite a.more-blog:hover{
+    background-color: #d4af37;
+    color:#FFFFFF;
+}
 .workUs{
     margin-bottom: 79px;
 }
 .workUs h3{
-    font-family: 'Open Sans-SemiBold', sans-serif;
+    font-weight: 600;
     color:#505d68;
     font-size: 44px;
     text-align: center;
@@ -359,14 +371,20 @@ a.more-blog{
     padding: 0 73px;
 }
 .contactBlocks h4{
+    font-weight: 600;
+    text-transform: uppercase;
     padding:52px 0 0;
     text-align: center;
     margin-bottom: 48px;
 }
 
 .contactBlocks p{
-    padding-bottom: 48px;
+    font-weight: 300;
     text-align: center;
+    margin-bottom: 24px;
+}
+.contactBlocks p:last-of-type{
+    padding-bottom: 47px;
 }
 footer{
     background-color: #eeeeee;
