@@ -43,7 +43,7 @@ services_text_sec{
 }
 
 .services_text{
-    width: 608px;
+    max-width: 608px;
     display: flex;
     margin-left: 14px;
     justify-content: space-between;
@@ -59,7 +59,8 @@ services_text_sec{
 }
 .services_p_sec {
     display: block;
-    width: 210px;
+    min-width: 210px;
+    padding-left: 50px;
     font: 18px "Open Sans";
     font-weight: lighter;
     color: #505d68;
@@ -83,6 +84,85 @@ footer p {
 
 footer .footer_1 {
     padding-right: 161px;
+}
+
+
+
+@media only screen and (max-width: 1128px) {
+    .img_header img {
+        position: absolute;
+        position: relative;
+        object-fit: cover;
+        width: 140%;
+        height: 700px;
+        transition: 0.7s;
+    }
+}
+
+
+
+    @media only screen and (max-width: 1024px) {
+        .img_header img {
+            position: absolute;
+            position: relative;
+            object-fit: cover;
+            width: 140%;
+            height: 700px;
+            transition: 0.7s;
+        }
+    }
+
+
+
+@media only screen and (max-width: 992px) {
+    .img_header img {
+        position: absolute;
+        position: relative;
+        object-fit: cover;
+        width: 140%;
+        height: 700px;
+        transition: 0.7s;
+    }
+}
+
+
+@media only screen and (max-width: 894px) {
+    .img_header img {
+        position: absolute;
+        position: relative;
+        object-fit: cover;
+        width: 140%;
+        height: 700px;
+        transition: 0.7s;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 550px) {
+
+}
+
+
+@media only screen and (max-width: 425px) {
+
+
+}
+
+@media only screen and (max-width: 375px) {
+
+}
+
+@media only screen and (max-width: 360px) {
+
+}
+
+@media only screen and (max-width: 320px) {
+
+
+
 }
 
 
