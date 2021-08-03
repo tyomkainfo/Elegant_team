@@ -354,7 +354,7 @@ a.more-blog{
     justify-content: space-between;
 }
 .contactBlocks{
-    max-width:370px;
+    width:50%;
     background-color: #f9f9f9;
     padding: 0 73px;
 }
