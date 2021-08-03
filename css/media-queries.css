@@ -62,7 +62,7 @@
 
 @media only screen and (max-width: 550px) {
     .more-btn {
-        padding: 0;
+        padding: 0 20px;
         width: 100%;
     }
 }
@@ -74,7 +74,7 @@
     }
 
     .title {
-        font-size: 50px;
+        font-size: 48px;
         line-height: 50px;
     }
 
@@ -96,15 +96,22 @@
 
     .more-btn {
         font-size: 25px;
+        line-height: 80px;
     }
 }
 @media only screen and (max-width: 375px) {
 
+    .more-btn {
+        font-size: 20px;
+        line-height: 70px;
+    }
 
 }
 @media only screen and (max-width: 360px) {
 
 }
 @media only screen and (max-width: 320px) {
+
+
 
 }
