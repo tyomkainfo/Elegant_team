@@ -32,7 +32,7 @@ body {
     transition: 1s ease-in-out;
 }
 
-.header_section img:hover {
+.header_section:hover  img{
     transform: scale(1.1);
 }
 
@@ -149,6 +149,6 @@ body {
     transition: .7s ease-in-out;
 }
 
-.gallery_item img:hover {
+.gallery_item:hover img {
     transform: scale(1.2);
 }
