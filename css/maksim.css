@@ -1,4 +1,140 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+}
+.content_block{
+    width: 100%;
+}
+.center_content_text{
+    margin: auto;
+    max-width: 1280px;
+    text-align: center;
+
+}
+s
+
+.text_work{
+    color: #d4af37;
+    font-size: 13px;
+    margin-top: 129px;
+    font-family: 'Open Sans';
+}
+h1{
+    font-size: 44px;
+    color: black ;
+    margin-top: 25px;
+    font-family: 'Open Sans';
+}
+.text_description{
+    font-size: 18px;
+    color: #021725;
+    margin-top: 56px;
+    font-family: 'Open Sans';
+}
+.amazing_work {
+    text-align: center;
+}
+
+img{
+    display: block;
+    width: 100%;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    margin-top: 136px;
+}
+
+.gallery_first-row, .gallery_second-row {
+    display: flex;
+    justify-content: center;
+    margin: 3px;
+}
+
+.gallery_item {
+    display: inline-block;
+    width: 25%;
+    margin: 0 3px;
+    overflow: hidden;
+}
+
+.gallery_item img {
+    transition: .7s ease-in-out;
+}
+
+.gallery_item:hover img {
+    transform: scale(1.2);
+}
+
+footer{
+    background-color: #eeeeee;
+}
+
+.container.fter{
+    background-color: #eeeeee;
+    color:#505d68;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+.container {
+    max-width: 770px;
+    margin: auto;
+    padding: 0 15px;
+}
+@media only screen and (max-width: 1024px) {
+    .text_description {
+        font-size: 25px;
+        margin-top: 40px;
+    }
+    .gallery{
+        margin-top: 100px;
+    }
+    .text_work{
+        font-size: 17px;
+    }
+
+}
+@media only screen and (max-width: 992px) {
+
+}
+@media only screen and (max-width: 768px) {
+    .text_description {
+        font-size: 22px;
+
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .gallery_first-row, .gallery_second-row {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .gallery_item {
+        margin: 3px 0;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+
+}
+@media only screen and (max-width: 411px) {
+
+}
+@media only screen and (max-width: 375px) {
+
+}
+@media only screen and (max-width: 360px) {
+
+}
+@media only screen and (max-width: 320px) {
+
+}
+@media only screen and (max-width: 280px) {
+
 }
