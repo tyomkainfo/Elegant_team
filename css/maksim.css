@@ -162,22 +162,31 @@ footer{
         margin: 3px 0;
         width: 100%;
     }
+    .text_description {
+        font-size: 15px;
+    }
 }
 
 @media only screen and (max-width: 414px) {
 
 }
 @media only screen and (max-width: 411px) {
-
+    .text_description {
+        font-size: 22px;
+    }
 }
 @media only screen and (max-width: 375px) {
-
+    .text_description {
+        font-size: 20px;
+    }
 }
 @media only screen and (max-width: 360px) {
 
 }
 @media only screen and (max-width: 320px) {
-
+    .text_description {
+        font-size: 17px;
+    }
 }
 @media only screen and (max-width: 280px) {
 
