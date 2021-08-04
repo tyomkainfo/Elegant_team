@@ -72,18 +72,19 @@ footer{
     background-color: #eeeeee;
 }
 
-.container.fter{
+.fter{
     background-color: #eeeeee;
     color:#505d68;
     display: flex;
     justify-content: space-between;
     padding: 40px 0;
-}
-
-.container {
     max-width: 770px;
     margin: auto;
-    padding: 0 15px;
+}
+
+.fter p{
+    font: 16px "Open Sans";
+    font-weight: lighter;
 }
 @media only screen and (max-width: 1024px) {
     .text_description {
@@ -95,6 +96,19 @@ footer{
     }
     .text_work{
         font-size: 17px;
+    }
+    .amazePeople p, .lastPostText p,.container.fter p{
+        font-size: 29px;
+        line-height: 52px;
+    }
+
+    footer {
+        padding: 0 33px;
+    }
+
+    .fter {
+        display: flex;
+        flex-direction: column;
     }
 
 }
