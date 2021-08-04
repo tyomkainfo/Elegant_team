@@ -56,6 +56,10 @@ body {
 }
 
 
+.mobile_chevron {
+    display: none;
+}
+
 .tell_about {
     padding: 82px 0;
     text-align: center;
@@ -103,28 +107,34 @@ body {
     border: 1px solid black;
     padding: 0 53px;
     line-height: 55px;
+    transition: .3s linear;
 }
 
-
-.more-btn:after {
-
-    display: block;
-    content: "";
-    height: 3px;
-    width: 0;
-    background-color: transparent;
-    transition: .3s;
-    position: absolute;
-    bottom: -30px;
-    left: 50%;
-    transform: translateX(-50%);
-
-}
-
-.more-btn:hover:after {
-    width: 100px;
+.more-btn:hover {
     background-color: #d4af37;
+    color: #fff;
 }
+
+
+/*.more-btn:after {*/
+
+/*    display: block;*/
+/*    content: "";*/
+/*    height: 3px;*/
+/*    width: 0;*/
+/*    background-color: transparent;*/
+/*    transition: .3s;*/
+/*    position: absolute;*/
+/*    bottom: -30px;*/
+/*    left: 50%;*/
+/*    transform: translateX(-50%);*/
+
+/*}*/
+
+/*.more-btn:hover:after {*/
+/*    width: 100px;*/
+/*    background-color: #d4af37;*/
+/*}*/
 
 .amazing_work {
     text-align: center;
