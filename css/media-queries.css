@@ -1,9 +1,76 @@
 @media only screen and (max-width: 1024px) {
+    .amazePeople, .likeWrite, .workUs {
+        padding: 150px 23px;
+        margin-bottom: 40px;
+    }
+    .amazePeople h3, .likeWrite h3, .workUs h3{
+        font-size: 90px;
+        line-height: 90px;
+    }
+    .amazePeople h3:before, .likeWrite h3:before, .workUs h3:before{
+        font-size: 32px;
+        line-height: 28px;
+    }
+    .threeGuys {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .person {
+        max-width: 770px;
+        margin-bottom: 60px;
+    }
+    .person h4 {
+        font-size: 60px;
+    }
+
+    .lastPost {
+        flex-direction: column;
+    }
+
+    .imgLP img {
+        width: 100%;
+    }
+
+    .lastPostText {
+        max-width: 677px;
+    }
+
+    .lastPostText h4 {
+        font-size: 60px;
+    }
+
+    .lastPostText h4:before {
+        font-weight: 300;
+        font-size: 28px;
+        line-height: 28px;
+    }
+
+    a.more-blog {
+        font-size: 32px;
+        line-height: 106px;
+        padding: 0 100px;
+    }
+
+    .person h4.ceo:before, .person h4.designer:before, .person h4.developer:before {
+        font-size: 32px;
+    }
+
+    .contactBlocks p {
+        word-wrap: break-word;
+        font-size: 32px;
+    }
+    .amazePeople p, .lastPostText p,.container.fter p{
+        font-size: 32px;
+        line-height: 42px;
+    }
 
 }
+
 @media only screen and (max-width: 992px) {
 
 }
+
 @media only screen and (max-width: 768px) {
 
     .container {
@@ -58,12 +125,155 @@
         width: 100%;
     }
 
+
+    .amazePeople {
+        padding: 150px 33px;
+    }
+    .amazePeople h3, .likeWrite h3, .workUs h3{
+        font-size: 90px;
+        line-height: 90px;
+    }
+    .amazePeople h3:before, .likeWrite h3:before, .workUs h3:before{
+        font-size: 28px;
+        line-height: 28px;
+    }
+
+    .threeGuys {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .person {
+        max-width: 677px;
+        margin-bottom: 60px;
+    }
+
+    .person h4 {
+        font-size: 40px;
+    }
+
+    .person h4.ceo:before, .person h4.designer:before, .person h4.developer:before {
+        font-size: 28px;
+    }
+
+    .likeWrite {
+        padding: 150px 33px;
+    }
+
+    .lastPost {
+        flex-direction: column;
+    }
+
+    .imgLP img {
+        width: 100%;
+    }
+
+    .lastPostText {
+        max-width: 677px;
+    }
+
+    .lastPostText h4 {
+        font-size: 60px;
+    }
+
+    .lastPostText h4:before {
+        font-weight: 300;
+        font-size: 28px;
+        line-height: 28px;
+    }
+
+    a.more-blog {
+        font-size: 27px;
+        line-height: 106px;
+        padding: 0 100px;
+    }
+
+    .iframe-container {
+        overflow: hidden;
+        position: relative;
+    }
+
+    .iframe-container iframe {
+        width: 100%;
+    }
+
+    .contactBlocks {
+        padding: 0 40px;
+    }
+
+    .contactBlocks h4 {
+        font-size: 18px;
+    }
+
+    .contactBlocks p {
+        word-wrap: break-word;
+        font-size: 30px;
+    }
+    .amazePeople p, .lastPostText p,.container.fter p{
+        font-size: 29px;
+        line-height: 52px;
+    }
+
+    footer {
+        padding: 0 33px;
+    }
+
+    .container.fter {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 @media only screen and (max-width: 550px) {
+    .container{
+        padding: 0 23px;
+    }
     .more-btn {
         padding: 0 20px;
         width: 100%;
+    }
+
+    .amazePeople, .likeWrite, .workUs {
+        padding: 100px 23px;
+        margin-bottom: 40px;
+    }
+
+    .person h4 {
+        font-size: 30px;
+    }
+
+    .person h4.ceo:before, .person h4.designer:before, .person h4.developer:before {
+        font-size: 23px;
+    }
+
+    .amazePeople h3, .likeWrite h3, .workUs h3 {
+        font-size: 70px;
+        line-height: 90px;
+    }
+
+    .amazePeople h3:before, .likeWrite h3:before, .workUs h3:before {
+        font-size: 25px;
+        line-height: 28px;
+    }
+
+    .amazePeople p, .lastPostText p,.container.fter p  {
+        font-size: 23px;
+        line-height: 52px;
+    }
+
+    .lastPostText h4 {
+        font-size: 40px;
+    }
+
+    .lastPostText h4:before {
+        font-weight: 300;
+        font-size: 25px;
+        line-height: 28px;
+    }
+    a.more-blog {
+        font-size: 17px;
+        padding: 0 60px;
+        line-height: 80px;
     }
 }
 
@@ -98,20 +308,103 @@
         font-size: 25px;
         line-height: 80px;
     }
+
+    .amazePeople, .likeWrite, .workUs {
+        padding: 100px 23px;
+        margin-bottom: 40px;
+    }
+
+    .amazePeople h3, .likeWrite h3, .workUs h3{
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .amazePeople h3:before, .likeWrite h3:before, .workUs h3:before{
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .person h4 {
+        font-size: 30px;
+    }
+
+    .person h4.ceo:before, .person h4.designer:before, .person h4.developer:before {
+        font-size: 20px;
+    }
+
+    .lastPostText h4 {
+        font-size: 30px;
+    }
+
+    .lastPostText h4:before {
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .btn a.more-blog {
+        font-size: 25px;
+        line-height: 80px;
+        padding: 0 50px;
+    }
+    a.more-blog{
+        font-size: 20px;
+        line-height: 70px;
+        padding: 0 40px;
+    }
+
+    .contactBlocks {
+        padding: 0 20px;
+    }
+
+    .contactBlocks h4 {
+        font-size: 16px;
+    }
+
+    .contactBlocks p {
+        word-wrap: break-word;
+        font-size: 20px;
+    }
+    .amazePeople p, .lastPostText p,.container.fter p{
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    footer {
+        padding: 0 23px;
+    }
 }
+
 @media only screen and (max-width: 375px) {
 
     .more-btn {
         font-size: 20px;
         line-height: 70px;
     }
-
+    .btn a.more-blog {
+        font-size: 20px;
+        line-height: 70px;
+        padding: 0 40px;
+    }
+    a.more-blog{
+        font-size: 20px;
+        line-height: 70px;
+        padding: 0 30px;
+    }
 }
+
 @media only screen and (max-width: 360px) {
 
 }
+
 @media only screen and (max-width: 320px) {
-
-
+    .btn a.more-blog{
+        font-size: 20px;
+        line-height: 70px;
+        padding: 0 40px;
+    }
+    a.more-blog{
+        font-size: 20px;
+        line-height: 70px;
+        padding: 0 20px;
+    }
 
 }
