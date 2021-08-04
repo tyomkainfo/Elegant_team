@@ -12,7 +12,37 @@
     text-align: center;
 
 }
-s
+.what_we_do {
+    padding: 128px 0 137px;
+    text-align: center;
+}
+.title:before {
+    display: block;
+    content: "OUR AMAZING WORK";
+    width: 100%;
+    font: 13px "Open Sans";
+    font-weight: bold;
+    color: #d4af37;
+    line-height: 13px;
+    margin-bottom: 24px;
+}
+
+.title {
+    font: 44px "Open Sans";
+    color: #021725;
+    font-weight: 600;
+    margin-bottom: 50px;
+    line-height: 35px;
+}
+
+
+.tell_about p {
+    font: 18px "Open Sans";
+    color: #676d73;
+    font-weight: 300;
+    line-height: 32px;
+    margin-bottom: 40px;
+}
 
 .text_work{
     color: #d4af37;
