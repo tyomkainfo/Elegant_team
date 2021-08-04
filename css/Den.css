@@ -193,6 +193,9 @@
     .img_contact {
         width: 100%;
     }
+    .container {
+        margin-bottom: 147px;
+    }
 }
 @media only screen and (max-width: 552px) {
     .contact .number {
