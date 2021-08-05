@@ -138,8 +138,31 @@
 .second_column_img{
     width: 100%;
 }
+footer{
+    background-color: #eeeeee;
+}
+
+.fter{
+    background-color: #eeeeee;
+    color:#505d68;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+    max-width: 770px;
+    margin: auto;
+}
+
+.fter p{
+    font: 16px "Open Sans";
+    font-weight: lighter;
+}
+
 
 @media only screen and (max-width: 1128px) {
+    .main_div{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
     .first_column{
         max-width: 600px;
         margin-right: 50px;
@@ -150,6 +173,19 @@
     .under_main_div{
         margin-left: 20px;
         margin-right: 20px;
+    }
+    .amazePeople p, .lastPostText p,.container.fter p{
+        font-size: 29px;
+        line-height: 52px;
+    }
+
+    footer {
+        padding: 0 33px;
+    }
+
+    .fter {
+        display: flex;
+        flex-direction: column;
     }
 }
 
