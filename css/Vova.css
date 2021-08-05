@@ -1,0 +1,146 @@
+.content{
+    max-width: 100px;
+    margin: auto;
+    background-color: #f9f9f9;
+    overflow: hidden;
+
+
+}
+
+
+
+
+
+
+section .side_bar{
+    padding-bottom: 50px;
+    padding-top: 70px;
+    max-width: 270px;
+    float: right;
+    position: relative;
+    padding-left:60px;
+    margin: auto;
+}
+.recent{
+    color: #71777c;
+    font-size: 23px;
+    border-bottom: 3px solid #d3b000;
+    padding-bottom: 18px;
+
+
+
+}
+.posts{
+    padding-top: 35px;
+    padding-bottom: 65px;
+    font-style: italic;
+    color:#20323f ;
+
+}
+.cat{
+    color: #71777c;
+    font-size: 23px;
+    border-bottom: 3px solid #d3b000;
+    padding-bottom: 18px;
+}
+.categories{
+    padding-top: 35px;
+    padding-bottom: 65px;
+    font-style: italic;
+    font-size: 23px;
+
+
+}
+.categories ul li a{
+    color: #20323f;
+    text-decoration: none;
+    transition: 0.4s;
+
+}
+.categories ul li a:hover{
+    color: #d3b000;
+
+}
+.proj{
+    font-size: 23px;
+    color: #71777c;
+    border-bottom: 3px solid #d3b000;
+    padding-bottom: 18px;
+
+}
+.projects{
+    padding-top: 35px;
+    padding-bottom: 65px;
+    margin-top: 5px;
+
+}
+.projects img{
+    margin-top: 10px;
+}
+@media only screen and (max-width: 1024px) {
+
+    .content{
+        width: 600px;
+        margin: auto;
+        background-color: #f9f9f9;
+        overflow: hidden;
+
+
+    }
+
+}
+@media only screen and (max-width: 800px) {
+
+
+    .content{
+
+        background-color: #fff;
+
+
+
+    }
+    section.content{
+        max-width: 360px;
+        margin: auto;
+        background-color:#f9f9f9 ;
+
+
+
+    }
+}
+@media only screen and (max-width: 850px) {
+    section .side_bar{
+        padding-top: 40px;
+        width: 330px;
+
+    }
+
+}
+@media only screen and (max-width: 570px) {
+
+}
+@media only screen and (max-width: 375px) {
+
+}
+@media only screen and (max-width: 360px) {
+    section .side_bar{
+
+        width: 250px;
+
+    }
+    section.content{
+        max-width: 300px;
+        margin: auto;
+        background-color:#f9f9f9 ;
+
+
+
+    }
+
+}
+@media only screen and (max-width: 320px) {
+
+
+}
+
+
