@@ -233,8 +233,38 @@
         font-size: 32px;
         line-height: 42px;
     }
-
-
+    body.lock{
+        overflow: hidden;
+    }
+    .header{
+        background-color: rgba(84,90,91,0.67);
+        z-index: 10;
+        padding: 14px 0 18px 0;
+    }
+    .header_menu_new p{
+        transform: scale(0);
+    }
+    .header_burger:before{
+        height: 6px;
+    }
+    .header_burger:after{
+        height: 6px;
+    }
+    .header_burger span{
+        height: 6px;
+    }
+    .header_burger{
+        width: 35px;
+        height: 24px;
+    }
+    .header_menu.active{
+        width: 100%;
+        background-color: rgba(0,0,0,0.67);
+        text-align: center;
+    }
+    .header_list li{
+        margin-bottom: 40%;
+    }
 }
 
 @media only screen and (max-width: 992px) {
