@@ -478,7 +478,10 @@
 }
 
 @media only screen and (max-width: 360px) {
-
+    .contactBlocks p {
+        word-wrap: break-word;
+        font-size: 15px;
+    }
 }
 
 @media only screen and (max-width: 320px) {
@@ -499,6 +502,10 @@
         font-size: 20px;
         line-height: 70px;
         padding: 0 20px;
+    }
+    .contactBlocks p {
+        word-wrap: break-word;
+        font-size: 15px;
     }
 
 }

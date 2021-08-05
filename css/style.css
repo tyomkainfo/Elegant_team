@@ -26,7 +26,7 @@ body {
     z-index: 1;
 }
 
-.header_section{
+.header_section {
     width: 100%;
     height: auto;
 }
@@ -35,9 +35,9 @@ body {
     transition: 1s ease-in-out;
 }
 
-/*.header_section:hover  img{
+.header_section:hover img {
     transform: scale(1.1);
-}*/
+}
 
 .mobile_bg {
     display: none;
@@ -99,10 +99,10 @@ body {
     margin-bottom: 40px;
 }
 
-.more-btn{
+.more-btn {
     position: relative;
     display: inline-block;
-    font-size:  14px;
+    font-size: 14px;
     color: #021725;
     text-decoration: none;
     border: 1px solid black;
@@ -117,25 +117,25 @@ body {
 }
 
 
-/*.more-btn:after {*/
+/*.more-btn:after {
 
-/*    display: block;*/
-/*    content: "";*/
-/*    height: 3px;*/
-/*    width: 0;*/
-/*    background-color: transparent;*/
-/*    transition: .3s;*/
-/*    position: absolute;*/
-/*    bottom: -30px;*/
-/*    left: 50%;*/
-/*    transform: translateX(-50%);*/
+    display: block;
+    content: "";
+    height: 3px;
+    width: 0;
+    background-color: transparent;
+    transition: .3s;
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
 
-/*}*/
-
-/*.more-btn:hover:after {*/
-/*    width: 100px;*/
-/*    background-color: #d4af37;*/
-/*}*/
+}
+*/
+.more-btn:hover:after {
+    width: 100px;
+    background-color: #d4af37;
+}
 
 .amazing_work {
     text-align: center;
@@ -171,25 +171,26 @@ body {
     transform: scale(1.2);
 }
 
-.container{
+.container {
     margin: auto;
     max-width: 770px;
 }
 
-.amazePeople{
+.amazePeople {
     padding: 82px 0;
     margin-bottom: 80px;
 }
-.amazePeople h3{
+
+.amazePeople h3 {
     font-weight: 600;
-    color:#747a7f;
+    color: #747a7f;
     font-size: 44px;
     text-align: center;
     margin-bottom: 47px;
-    padding:24px 8px 0;
+    padding: 24px 8px 0;
 }
 
-.amazePeople h3:before{
+.amazePeople h3:before {
     content: "Who We Are";
     text-transform: uppercase;
     color: #d4af37;
@@ -200,32 +201,35 @@ body {
     line-height: 13px;
     margin-bottom: 24px;
 }
-p.mainPar{
+
+p.mainPar {
     text-align: center;
     font-weight: 300;
     font-size: 18px;
-    color:#021725;
+    color: #021725;
     margin-bottom: 49px;
 }
-.threeGuys{
+
+.threeGuys {
     display: flex;
     justify-content: space-between;
 }
-.person{
+
+.person {
     background-color: #f9f9f9;
     max-width: 245px;
     margin-right: 5px;
 }
 
-.person h4{
+.person h4 {
     text-align: left;
-    color:#71777c;
+    color: #71777c;
     margin-bottom: 35px;
-    padding:51px 0 0 16px;
-    font-size:21px;
+    padding: 51px 0 0 16px;
+    font-size: 21px;
 }
 
-.person h4.ceo:before{
+.person h4.ceo:before {
     content: "CEO";
     text-transform: uppercase;
     color: #d4af37;
@@ -235,7 +239,8 @@ p.mainPar{
     line-height: 13px;
     margin-bottom: 21px;
 }
-.person h4.designer:before{
+
+.person h4.designer:before {
     content: "DESIGNER";
     text-transform: uppercase;
     color: #d4af37;
@@ -245,7 +250,8 @@ p.mainPar{
     line-height: 13px;
     margin-bottom: 21px;
 }
-.person h4.developer:before{
+
+.person h4.developer:before {
     content: "DEVELOPER";
     text-transform: uppercase;
     color: #d4af37;
@@ -256,26 +262,27 @@ p.mainPar{
     margin-bottom: 21px;
 }
 
-.person p{
-    text-align:left;
-    padding:0 19px 47px 21px;
-    color:#021725;
+.person p {
+    text-align: left;
+    padding: 0 19px 47px 21px;
+    color: #021725;
     font-weight: 300;
 }
 
-.likeWrite{
-    margin-bottom:90px;
+.likeWrite {
+    margin-bottom: 90px;
 }
-.likeWrite h3{
+
+.likeWrite h3 {
     font-weight: 600;
-    color:#505d68;
+    color: #505d68;
     font-size: 44px;
     text-align: center;
     margin-bottom: 47px;
-    padding:24px 8px 0;
+    padding: 24px 8px 0;
 }
 
-.likeWrite h3:before{
+.likeWrite h3:before {
     content: "Last post";
     text-transform: uppercase;
     color: #d4af37;
@@ -286,29 +293,33 @@ p.mainPar{
     line-height: 13px;
     margin-bottom: 24px;
 }
-.lastPost{
+
+.lastPost {
     display: flex;
     justify-content: space-between;
     margin-bottom: 85px;
 }
-.imgLP img{
-   width: auto;
+
+.imgLP img {
+    width: auto;
 }
-.lastPostText{
+
+.lastPostText {
     max-width: 385px;
     min-height: 389px;
     background-color: #f9f9f9;
 }
 
-.lastPostText h4{
+.lastPostText h4 {
     font-weight: 600;
-    color:#505d68;
+    color: #505d68;
     font-size: 30px;
     padding-left: 40px;
     padding-top: 45px;
     margin-bottom: 35px;
 }
-.lastPostText h4:before{
+
+.lastPostText h4:before {
     content: "14 September 2014";
     text-transform: uppercase;
     color: #505d68;
@@ -318,20 +329,23 @@ p.mainPar{
     line-height: 13px;
     margin-bottom: 21px;
 }
-.lastPostText p{
+
+.lastPostText p {
     color: #505d68;
-    padding:0 40px 0 40px;
+    padding: 0 40px 0 40px;
     margin-bottom: 58px;
     font-weight: 300;
 }
 
-.lastPostText .btn{
-    padding:0 40px 40px 40px;
+.lastPostText .btn {
+    padding: 0 40px 40px 40px;
 }
-.btnBlog{
+
+.btnBlog {
     text-align: center;
 }
-a.more-blog{
+
+a.more-blog {
     display: inline-block;
     font-size: 14px;
     color: #021725;
@@ -342,26 +356,29 @@ a.more-blog{
     transition: 0.3s linear;
 }
 
-.likeWrite a.more-blog{
+.likeWrite a.more-blog {
     text-align: center;
 }
 
-.likeWrite a.more-blog:hover{
+.likeWrite a.more-blog:hover {
     background-color: #d4af37;
-    color:#FFFFFF;
+    color: #FFFFFF;
 }
-.workUs{
+
+.workUs {
     margin-bottom: 79px;
 }
-.workUs h3{
+
+.workUs h3 {
     font-weight: 600;
-    color:#505d68;
+    color: #505d68;
     font-size: 44px;
     text-align: center;
     margin-bottom: 47px;
-    padding:24px 8px 0;
+    padding: 24px 8px 0;
 }
-.workUs h3:before{
+
+.workUs h3:before {
     content: "Contact Us";
     text-transform: uppercase;
     color: #d4af37;
@@ -372,39 +389,44 @@ a.more-blog{
     line-height: 13px;
     margin-bottom: 24px;
 }
-.info_block{
+
+.info_block {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.contactBlocks{
-    width:50%;
+
+.contactBlocks {
+    width: 50%;
     background-color: #f9f9f9;
     padding: 0 73px;
 }
-.contactBlocks h4{
+
+.contactBlocks h4 {
     font-weight: 600;
     text-transform: uppercase;
-    padding:52px 0 0;
+    padding: 52px 0 0;
     text-align: center;
     margin-bottom: 48px;
 }
 
-.contactBlocks p{
+.contactBlocks p {
     font-weight: 300;
     text-align: center;
     margin-bottom: 24px;
 }
-.contactBlocks p:last-of-type{
+
+.contactBlocks p:last-of-type {
     padding-bottom: 47px;
 }
-footer{
+
+footer {
     background-color: #eeeeee;
 }
 
-.container.fter{
+.container.fter {
     background-color: #eeeeee;
-    color:#505d68;
+    color: #505d68;
     display: flex;
     justify-content: space-between;
     padding: 40px 0;
