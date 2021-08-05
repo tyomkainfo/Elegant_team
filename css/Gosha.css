@@ -12,7 +12,7 @@
     position: relative;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    z-index: 2;
 }
 .header_menu{
     position: fixed;
@@ -42,7 +42,6 @@
     font-size: 16px;
     color: #fff;
     margin-right: 4px;
-    font-weight: 600px;
 }
 .header_list{
     list-style: none;
