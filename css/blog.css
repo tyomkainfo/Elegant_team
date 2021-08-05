@@ -2,25 +2,45 @@
     margin: 0;
     padding: 0;
 }
-section{
-    margin: 0 5%;
+
+.header_section {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    z-index: 1;
 }
+
+.header_bg img{
+    width: 100%;
+}
+
+.header_section h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    font-style: italic;
+    font-size: 80px;
+    color: #fff;
+    font-weight: 300;
+    padding: 0 30px;
+}
+
 .blog_fon{
     background-color: #f9f9f9;
-    max-width: 100%;
     display: flex;
-    position: relative;
-    padding: 10%;
-    max-height: fit-content;
-    flex-wrap: wrap;
-    overflow: hidden;
-    float: left;
-    clear: both;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 78px;
+    max-width: 1150px;
+    padding: 78px 65px;
 }
 .blog {
-    width: 667px;
+    max-width: 666px;
     background-color: white;
-    margin: 28px;
+    margin: auto;
+    padding: 34px 34px;
 }
 
 
@@ -28,13 +48,11 @@ section{
     max-width: 666px; 
     display: block;
     width: 100%;
-
-
 }
 
-.blog_img {
-    margin-top: 32px;
-    margin-left: 34px;
+
+.blog_img img{
+    width: 100%;
 }
 
 .blog_title {
@@ -80,9 +98,8 @@ section{
     color: white;
 }
 .blog_linc_2{
-   position:absolute ;
-    top: 95%;
-    left: 40%;
+    padding-top: 50px;
+    text-align: center;
 }
 .blog_linc_2 a {
 
@@ -106,14 +123,29 @@ section{
     margin: auto;
     width: 100%;
 }
+footer {
+    background-color: #eeeeee;
+}
 
+.container.fter {
+    background-color: #eeeeee;
+    color: #505d68;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+    max-width: 770px;
+    margin: auto;
+}
 
 @media only screen and (max-width: 1024px) {
 
 }
 
 @media only screen and (max-width: 992px) {
-
+    .blog_fon{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 @media only screen and (max-width: 360px) {
@@ -195,5 +227,14 @@ section{
 
             }
         }
-    }
+.item_blog:nth-of-type(1) {
+    width: 75%;
+}
+
+.item_blog:nth-of-type(2) {
+    width: 25%;
+}
+
+.img-bg {
+    width: 100%;
 }

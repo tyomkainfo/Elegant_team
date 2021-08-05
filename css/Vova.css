@@ -1,24 +1,7 @@
-.content{
-    max-width: 100px;
-    margin: auto;
-    background-color: #f9f9f9;
-    overflow: hidden;
-
-
-}
-
-
-
-
-
-
-section .side_bar{
+.side_bar{
     padding-bottom: 50px;
     padding-top: 70px;
-    max-width: 270px;
-    float: right;
-    position: relative;
-    padding-left:60px;
+    max-width: 300px;
     margin: auto;
 }
 .recent{
@@ -26,9 +9,6 @@ section .side_bar{
     font-size: 23px;
     border-bottom: 3px solid #d3b000;
     padding-bottom: 18px;
-
-
-
 }
 .posts{
     padding-top: 35px;
@@ -76,7 +56,9 @@ section .side_bar{
 }
 .projects img{
     margin-top: 10px;
+    width: 100%;
 }
+
 @media only screen and (max-width: 1024px) {
 
     .content{
@@ -84,8 +66,6 @@ section .side_bar{
         margin: auto;
         background-color: #f9f9f9;
         overflow: hidden;
-
-
     }
 
 }
@@ -124,17 +104,12 @@ section .side_bar{
 }
 @media only screen and (max-width: 360px) {
     section .side_bar{
-
         width: 250px;
-
     }
     section.content{
         max-width: 300px;
         margin: auto;
         background-color:#f9f9f9 ;
-
-
-
     }
 
 }
