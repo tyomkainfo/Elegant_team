@@ -20,30 +20,25 @@ body {
 }
 
 .header_section {
-    position: relative;
-    overflow: hidden;
+    padding: 465px 0;
     text-align: center;
-    z-index: 1;
+    background-image: url("../images/main_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /*transition: 1s ease-in-out;*/
+    /*overflow: hidden;*/
+    /*background-position: center;*/
 }
 
-.header_section img {
-    transition: 1s ease-in-out;
-}
-
-.header_section:hover img {
-    transform: scale(1.1);
-}
+/*.header_section:hover{*/
+/*    background-size: 110%;*/
+/*}*/
 
 .mobile_bg {
     display: none;
 }
 
 .header_section h1 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 100%;
-    transform: translate(-50%, -50%);
     font-style: italic;
     font-size: 80px;
     color: #fff;
