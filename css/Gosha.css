@@ -114,11 +114,12 @@
 
 .header_burger.active span:last-of-type{
     transform: rotate(45deg);
-    margin-top: -8px;
+    margin-top: -6px;
 }
 .header_burger.active span:first-of-type{
     transform: rotate(-45deg);
-    margin-bottom: 6px;
+    transform-origin: 8px;
+    /*margin-bottom: 6px;*/
 }
 
 .header:before{

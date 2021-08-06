@@ -20,6 +20,20 @@
         background-size: 100%;
     }
 
+    .header_burger span {
+        width: 100%;
+    }
+
+    .header_burger.active span:last-of-type{
+        transform: rotate(45deg);
+        margin-top: -6px;
+    }
+    .header_burger.active span:first-of-type{
+        transform: rotate(-45deg);
+        transform-origin: 21px;
+    }
+
+
     .header_section h1 {
         margin-bottom: 75px;
     }
