@@ -34,10 +34,11 @@
     width: 25vw;
     height: 100%;
     z-index: 3;
-    background-color: rgba(0,0,0,0.67);
+    background-color: transparent;
     text-align: center;
     padding-top: 75px;
-    transition: 0.6s;
+    transition: .5s right, background-color ease;
+
 }
 .header_menu_mobile{
     position: fixed;
@@ -59,7 +60,7 @@
     color: #fff;
     margin-right: 10px;
     transition: .6s;
-    /*cursor: pointer;*/
+    line-height: 15px;
 }
 
 .header_menu_new:hover p {
@@ -102,8 +103,8 @@
     display: block;
     width: 18px;
     height: 2px;
-    margin: 3px 0;
-    transition: 0.5s;
+    margin: 3px;
+    transition: 0.3s;
 }
 
 
@@ -118,7 +119,7 @@
 }
 .header_burger.active span:first-of-type{
     transform: rotate(-45deg);
-    transform-origin: 8px;
+    transform-origin: 7px;
     /*margin-bottom: 6px;*/
 }
 
@@ -137,6 +138,7 @@
 .header_menu.active{
     z-index: 1;
     right: 0;
+    background-color: rgba(0,0,0,0.67)
 }
 .header_menu_new.active p {
     color: transparent;

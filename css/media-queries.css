@@ -20,20 +20,6 @@
         background-size: 100%;
     }
 
-    .header_burger span {
-        width: 100%;
-    }
-
-    .header_burger.active span:last-of-type{
-        transform: rotate(45deg);
-        margin-top: -6px;
-    }
-    .header_burger.active span:first-of-type{
-        transform: rotate(-45deg);
-        transform-origin: 21px;
-    }
-
-
     .header_section h1 {
         margin-bottom: 75px;
     }
@@ -269,29 +255,57 @@
         z-index: 10;
         padding: 14px 0 18px 0;
     }
+
+    .header.fade {
+        background-color: rgba(84,90,91,0.67);
+    }
+
+    .logo {
+        min-width: 366px;
+    }
+
+    .header_body {
+        padding: 0 28px;
+    }
+
+    .header_burger.active span:last-of-type{
+        transform: rotate(45deg);
+        margin-top: -6px;
+    }
+    .header_burger.active span:first-of-type{
+        transform: rotate(-45deg);
+        transform-origin: 22px;
+    }
+
+    .header_menu_new:hover span{
+        background-color: white;
+    }
+
     .header_menu_new p{
-        transform: scale(0);
+        display: none;
     }
-    .header_burger:before{
-        height: 6px;
-    }
-    .header_burger:after{
-        height: 6px;
-    }
+
     .header_burger span{
-        height: 6px;
+        width: 100%;
+        height: 5px;
+        margin: 5px 0;
     }
+
+
     .header_burger{
         width: 35px;
-        height: 24px;
     }
+
     .header_menu.active{
-        width: 100%;
+        width: 447px;
+        max-width: 100vw;
         background-color: rgba(0,0,0,0.67);
         text-align: center;
     }
-    .header_list li{
-        margin-bottom: 40%;
+
+    .header_link {
+        font-size: 30px;
+        line-height: 30px;
     }
 }
 
@@ -314,8 +328,21 @@
 
 @media only screen and (max-width: 550px) {
 
+    .header_body {
+        padding: 0 23px;
+    }
+
     .header_section {
         padding: 321px 0;
+    }
+
+    .logo {
+        min-width: unset;
+    }
+
+    .header_link {
+        font-size: 20px;
+        line-height: 20px;
     }
 
     .container{
