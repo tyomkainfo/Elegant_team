@@ -292,38 +292,38 @@
     background-color: #d3b000 ;
     color: white;
 }
-footer {
+footer{
     background-color: #eeeeee;
 }
 
-.container.fter {
-    max-width: 746px;
-    margin: auto;
+.fter{
     background-color: #eeeeee;
-    color: #505d68;
+    color:#505d68;
     display: flex;
     justify-content: space-between;
     padding: 40px 0;
+    max-width: 770px;
+    margin: auto;
 }
+
+.fter p{
+    font: 16px "Open Sans";
+    font-weight: lighter;
+}
+@media only screen and (max-width: 1128px) {
 .container.fter p{
-    font-size: 16px;
-    font-family: "Open Sans",sans-serif;
-
-}
-footer {
-    background-color: #eeeeee;
+        font: 16px "Open Sans";
+        font-weight: lighter;
 }
 
-.container.fter {
-    max-width: 746px;
-    margin: auto;
-    background-color: #eeeeee;
-    color: #505d68;
-    display: flex;
-    justify-content: space-between;
-    padding: 40px 0;
-}
-@media only screen and (max-width: 1024px) {  }
+    footer {
+        padding: 0 33px;
+    }
+
+    .fter {
+        display: flex;
+        flex-direction: column;
+    } }
 @media only screen and (max-width: 992px) {  }
 @media only screen and (max-width: 768px) {
     #img_contact {

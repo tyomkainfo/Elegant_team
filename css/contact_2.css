@@ -226,7 +226,21 @@ footer {
     justify-content: space-between;
     padding: 40px 0;
 }
-@media only screen and (max-width: 1024px) {  }
+@media only screen and (max-width: 1128px) {
+    .fter p{
+        font-size: 29px;
+        line-height: 52px;
+    }
+
+    footer {
+        padding: 0 33px;
+    }
+
+    .fter {
+        display: flex;
+        flex-direction: column;
+    }
+}
 @media only screen and (max-width: 992px) {  }
 @media only screen and (max-width: 768px) {
     #img_contact {
@@ -264,9 +278,7 @@ footer {
     .img_contact {
         width: 100%;
     }
-    .container.fter p{
-        font-size: 30px;
-    }
+
 }
 @media only screen and (max-width: 552px) {
     .contact .number {
